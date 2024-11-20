@@ -8,7 +8,7 @@ import { CANDIDATES } from "../src/constants";
 async function main() {
     execSync("npx hardhat compile", { stdio: "inherit" });
 
-    const VOTING_DURATION_MINUTES = 2880;
+    const VOTING_DURATION_MINUTES = 10;
 
     // Prepare candidate data arrays for constructor
     const candidateIds = CANDIDATES.map(c => c.id);

@@ -1,7 +1,7 @@
 // src/constants/index.ts
 
 // Contract Deployment Information
-export const VOTING_CONTRACT_ADDRESS = "0xA33ff9Ca52Fb8A8Cbe0ceeC4f000350e7a49072c"; // This will be updated by deploy script
+export const VOTING_CONTRACT_ADDRESS = "0x00928139C6D4Dd6435E23397b1F3384cf7f0C263"; // This will be updated by deploy script
 export const VOTING_CONTRACT_ABI = [
   {
     "inputs": [
